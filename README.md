@@ -1,2 +1,2 @@
-# Checkpint1
+# Checkpoint1
 Task of Checkpoint1
