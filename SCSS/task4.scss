@@ -1,0 +1,31 @@
+$textColorOne:DarkGreen;
+$backgroundColorOne:#237C95;
+
+@mixin taskTwo-styling {
+    color:$textColorOne;
+}
+
+@mixin mixinTwo{
+  background-color: $backgroundColorOne;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+}
+
+.taskOne p{
+  color:$textColorOne;  
+}
+
+.taskTwo {
+  @include taskTwo-styling;  
+}
+
+.taskThree {
+  .nestedDiv p{
+    color:red;
+  }
+}
+
+.taskFour {
+  @include mixinTwo;
+}

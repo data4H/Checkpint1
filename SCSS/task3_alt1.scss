@@ -1,0 +1,19 @@
+$textColorOne:DarkGreen;
+
+@mixin taskTwo-styling {
+    color:$textColorOne
+}
+
+.taskOne p{
+  color:$textColorOne;  
+}
+
+.taskTwo {
+    @include taskTwo-styling;  
+  }
+
+.taskThree {
+    .nestedDiv p{
+        color:red;
+    }
+}
