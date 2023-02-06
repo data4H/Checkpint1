@@ -1,2 +1,2 @@
-# Checkpoint1
-Task of Checkpoint1
+# Checkpoint2
+Task of Checkpoint2:CSS Flexbox
