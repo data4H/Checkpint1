@@ -1,2 +1,2 @@
-# Checkpoint2
-Task of Checkpoint2:CSS Flexbox
+# Checkpoint3 
+Task of Checkpoint2: M2C3 Python Asignment
